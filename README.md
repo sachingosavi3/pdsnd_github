@@ -4,7 +4,7 @@ Include the date you created this project and README file.
 ### BikeShare
 Replace the Project Title
 
-### Rental Bike Trips Data
+### Rental Bike Trips Data inclduing travel time and birth year
 Describe what your project is about and what it does
 
 ### chicago.csv washington.csv
