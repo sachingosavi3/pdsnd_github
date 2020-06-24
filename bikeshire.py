@@ -18,7 +18,7 @@ def get_filters():
     city = input('\nName of the city (chicago, new york city, washington) to analyze:').lower() 
     exists = city in CITY_DATA 
     if not exists : 
-      print('Enter Valid City.\n') 
+      print('Enter Valid City Name.\n') 
       city, month, day = get_filters() 
       return city, month, day 
     
