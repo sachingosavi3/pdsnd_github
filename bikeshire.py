@@ -1,3 +1,4 @@
+# developed by :Sachin
 import time 
 import pandas as pd 
 import numpy as np 
@@ -18,12 +19,12 @@ def get_filters():
     city = input('\nName of the city (chicago, new york city, washington) to analyze:').lower() 
     exists = city in CITY_DATA 
     if not exists : 
-      print('Enter Valid City.\n') 
+      print('Enter Valid City Name.\n') 
       city, month, day = get_filters() 
       return city, month, day 
     
     # TO DO: get user input for month (all, january, february, ... , june) 
-    month = input('\nName of the month(january, february, ... , june) to filter by, or "all" to apply no month filter:').lower()
+    month = input('\nName of the month to see stats(january, february, ... , june) to filter by, or "all" to apply no month filter:').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday) 
     day = input('\nName of the day of week(monday, tuesday, ... sunday) to filter by, or "all" to apply no day filter:').lower()
