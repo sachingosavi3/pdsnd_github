@@ -1,15 +1,15 @@
-### Date created
+### 25-Jun-2020
 Include the date you created this project and README file.
 
-### Project Title
+### BikeShare
 Replace the Project Title
 
-### Description
+### Rental Bike Trips Data
 Describe what your project is about and what it does
 
-### Files used
+### chicago.csv washington.csv
 Include the files used
 
-### Credits
+### pdsnd_github
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
